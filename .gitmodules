@@ -1,0 +1,6 @@
+[submodule "quantum_algorithms"]
+	path = quantum_algorithms
+	url = https://github.com/lanl/quantum_algorithms
+[submodule "amazon-braket-examples"]
+	path = amazon-braket-examples
+	url = https://github.com/aws/amazon-braket-examples
