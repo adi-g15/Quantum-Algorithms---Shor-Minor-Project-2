@@ -1,0 +1,17 @@
+\newcommand{\fakesection}[1]{%
+  % \par \refstepcounter{section}% Increase section counter
+  \sectionmark{#1}% Add section mark (header)
+  \addcontentsline{toc}{section}{- #1}% Add section to ToC
+  % Add more content here, if needed.
+}
+
+\newcommand{\literaturereview}[7]{
+  \footnotesize #1 &
+  \footnotesize #2 &
+  \footnotesize #3 &
+  \footnotesize #4 &
+  \footnotesize #5 &
+  \footnotesize #6 &
+  \footnotesize #7 \\
+ \hline
+}
